@@ -151,12 +151,12 @@ function Navbar() {
                 <div>
                     <a href="mailto:hr@pentas.com">
                         <h1 className="text-white text-lg flex gap-2 items-center mb-2">
-                            <MdEmail /> hr@pentas.com
+                            <MdEmail /> hr@pentasint.com
                         </h1>
                     </a>
                     <a href="tel:+97167159788">
                         <h1 className="flex gap-2 items-center text-white text-lg">
-                            <FaPhoneAlt /> +97167159788
+                            <FaPhoneAlt /> (06) 7159788
                         </h1>
                     </a>
                 </div>

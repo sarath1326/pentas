@@ -162,17 +162,17 @@ function Contact() {
                             </h1>
 
                             <a href="mailto:hr@pentas.com" className="hover:underline block">
-                                hr@pentas.com
+                                hr@pentasint.com
                             </a>
                             <a href="mailto:finance@pentas.com" className="hover:underline block">
-                                finance@pentas.com
-                            </a>
+                               info@pentasint.com
+                             </a>
                             <a href="mailto:info@pentas.com" className="hover:underline block">
-                                info@pentas.com
+                                finance@pentasint.com
                             </a>
 
                             <a href="tel:+97167159788" className="flex items-center mt-3">
-                                <FaPhoneAlt className="mr-2" /> +971 67 159 788
+                                <FaPhoneAlt className="mr-2" /> (06) 7159788
                             </a>
                         </div>
 
@@ -180,7 +180,7 @@ function Contact() {
                         <div>
                             <h1 className="text-orange-600 text-[18px] md:text-[20px]">Follow us:</h1>
                             <div className="flex gap-5 mt-3 text-[20px]">
-                                <a href="https://wa.me/971503816500"
+                                <a href="https://wa.me/9717159788"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     <FaWhatsapp />
