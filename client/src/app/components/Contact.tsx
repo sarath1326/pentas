@@ -180,7 +180,7 @@ function Contact() {
                         <div>
                             <h1 className="text-orange-600 text-[18px] md:text-[20px]">Follow us:</h1>
                             <div className="flex gap-5 mt-3 text-[20px]">
-                                <a href="https://wa.me/9717159788"
+                                <a href="https://wa.me/971503816500"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     <FaWhatsapp />
