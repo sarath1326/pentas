@@ -132,29 +132,33 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaPhoneAlt } from "react-icons/fa
 function Contact() {
     return (
         <div>
-            <div className="w-full min-h-[400px] bg-black px-6 md:px-[190px] pt-[50px] md:pt-[70px]">
+            <div className="w-full h-[1px] bg-black"></div>
+            <div className="w-full min-h-[400px] bg-[#fff] px-6 md:px-[190px] pt-[50px] md:pt-[70px]">
                 {/* Top Content */}
                 <div className="w-full flex flex-col md:flex-row md:justify-between gap-8">
                     {/* Left Section */}
                     <div className="w-full md:w-1/2">
-                        <div className="w-[120px] h-[120px]">
+                        {/* <div className="w-[150px] h-[80px]">
                             <img
                                 src="./logo5.png"
                                 alt="Pentas Logo"
                                 className="w-full h-full object-cover rounded-t-2xl"
                             />
-                        </div>
+                        </div> */}
 
-                        <h1 className="text-orange-600 text-[24px] md:text-[30px]">Penta s</h1>
-                        <span className="text-[14px] sm:text-[15px]">
-                            International General Trading Contracting LLC
+                        <div className="w-[60px] h-[50px] md:w-[100px] md:h-[90px]">
+                            <img src="./logo5.png" className="w-full h-full" alt="Logo" />
+                        </div>
+                        <h1 className="text-[#41AFC0] text-[20px] md:text-[30px]">Penta s International</h1>
+                        <span className="text-[14px] text-gray-400 sm:text-[15px]">
+                           General Trading Contracting LLC
                         </span>
                         <br />
-                        <span className="text-[14px] sm:text-[15px]">For better future</span>
+                        {/* <span className="text-[14px] text-gray-400  sm:text-[15px]">For better future</span> */}
                     </div>
 
                     {/* Right Section */}
-                    <div className="w-full md:w-1/2 flex flex-col sm:flex-row justify-between gap-8 md:gap-20 text-white">
+                    <div className="w-full md:w-1/2 flex flex-col sm:flex-row justify-between gap-8 md:gap-20 text-black">
                         {/* Contact Emails */}
                         <div>
                             <h1 className="text-orange-600 text-[18px] md:text-[20px] mb-3">
@@ -165,8 +169,8 @@ function Contact() {
                                 hr@pentasint.com
                             </a>
                             <a href="mailto:finance@pentas.com" className="hover:underline block">
-                               info@pentasint.com
-                             </a>
+                                info@pentasint.com
+                            </a>
                             <a href="mailto:info@pentas.com" className="hover:underline block">
                                 finance@pentasint.com
                             </a>
@@ -199,9 +203,9 @@ function Contact() {
                 {/* Footer Bottom */}
                 <div className="w-full pt-8 md:pt-10">
                     <div className="border-t border-gray-400 mb-5"></div>
-                    <p className="text-center text-[13px] md:text-[15px] lg:text-[16px] font-[350] text-white">
+                    <p className="text-center text-[13px] md:text-[15px] lg:text-[16px] font-[350] text-black">
                         <Link href="/" className="hover:underline">
-                            Penta s
+                            Penta s International
                         </Link>{" "}
                         © {new Date().getFullYear()}. All Rights Reserved.
                     </p>

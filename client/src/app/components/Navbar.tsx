@@ -124,13 +124,16 @@ function Navbar() {
     ];
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-black h-[100px] flex items-center justify-between pr-6 md:px-12 shadow-lg z-50">
+        <nav className="fixed top-0 left-0 w-full bg-[#fff] h-[100px]  text-black flex items-center justify-between pr-6 md:px-12 shadow-lg z-50">
             {/* Logo (Left) */}
             <div className="flex items-center">
-                <div className="w-[100px] md:w-[120px] h-[120px]">
+                <div className="w-[60px] h-[50px] md:w-[100px] md:h-[90px]">
                     <img src="./logo5.png" className="w-full h-full" alt="Logo" />
                 </div>
-                <h1 className="text-orange-600 text-[30px]" > Penta s </h1>
+                <div className="mt-5">
+                    <h1 className="text-[#41AFC0] font-bold text-[20px] md:text-[30px] ml-3 md:ml-5 capitalize" > PENTA S INTERNATIONAL </h1>
+                    <h1 className="ml-3 md:ml-5 text-gray-400 text-[11px] md:text-[15px]" > Your Trusted General Trading Partner</h1>
+                </div>
             </div>
 
             {/* Desktop Menu (Center) */}
@@ -139,7 +142,7 @@ function Navbar() {
                     <Link
                         key={index}
                         href={link.href}
-                        className="text-white text-lg hover:text-orange-600 transition"
+                        className="text-lg hover:text-orange-600 transition"
                     >
                         {link.name}
                     </Link>
@@ -150,12 +153,12 @@ function Navbar() {
             <div className="hidden md:flex">
                 <div>
                     <a href="mailto:hr@pentas.com">
-                        <h1 className="text-white text-lg flex gap-2 items-center mb-2">
+                        <h1 className=" text-lg flex gap-2 items-center mb-2">
                             <MdEmail /> hr@pentasint.com
                         </h1>
                     </a>
                     <a href="tel:+97167159788">
-                        <h1 className="flex gap-2 items-center text-white text-lg">
+                        <h1 className="flex gap-2 items-center  text-lg">
                             <FaPhoneAlt /> (06) 7159788
                         </h1>
                     </a>
@@ -166,7 +169,7 @@ function Navbar() {
             <div className="md:hidden">
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="text-white focus:outline-none"
+                    className=" focus:outline-none"
                 >
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
@@ -182,13 +185,13 @@ function Navbar() {
 
             {/* Mobile Sidebar (Right Side) */}
             <div
-                className={`fixed top-0 right-0 w-3/4 h-full bg-black shadow-lg transform transition-transform duration-300 md:hidden z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
+                className={`fixed top-0 right-0 w-3/4 h-full bg-[#fff] shadow-lg transform transition-transform duration-300 md:hidden z-50 ${isOpen ? "translate-x-0" : "translate-x-full"
                     }`}
             >
                 <div className="flex flex-col items-start p-6 space-y-6 h-full">
                     <button
                         onClick={() => setIsOpen(false)}
-                        className="self-end text-white mb-6"
+                        className="self-end  mb-6"
                     >
                         <X size={28} />
                     </button>
@@ -197,18 +200,18 @@ function Navbar() {
                             key={index}
                             href={link.href}
                             onClick={() => setIsOpen(false)}
-                            className="text-white text-lg hover:text-orange-600 transition"
+                            className="text-lg hover:text-orange-600 transition"
                         >
                             {link.name}
                         </Link>
                     ))}
                     <a href="mailto:hr@pentas.com">
-                        <h1 className="text-white text-lg flex gap-2 items-center">
+                        <h1 className="text-lg flex gap-2 items-center">
                             <MdEmail /> hr@pentasint.com
                         </h1>
                     </a>
                     <a href="tel:+97167159788">
-                        <h1 className="flex gap-2 items-center text-white text-lg">
+                        <h1 className="flex gap-2 items-center  text-lg">
                             <FaPhoneAlt /> (06) 7159788
                         </h1>
                     </a>

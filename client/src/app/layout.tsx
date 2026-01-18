@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Panta s",
+  title: "Panta s International",
   description: "golbal traiding",
   icons: {
-    icon: "/logo3.gif",
+    icon: "/logo3.png",
 
   },
 

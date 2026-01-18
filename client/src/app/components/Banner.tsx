@@ -40,7 +40,7 @@ import React from "react";
 function Banner() {
     return (
         <div>
-            <div className="w-full h-[600px] sm:h-[700px] md:h-[800px] bg-[url('/banner1.jpeg')] bg-cover bg-center px-4 sm:px-10 md:px-[80px] lg:px-[120px] xl:px-[190px] pt-[120px] sm:pt-[150px] md:pt-[200px]">
+            <div className="w-full h-[600px] sm:h-[700px] md:h-[800px] bg-[url('/banner1.jpeg')] bg-cover bg-center  px-4 sm:px-10 md:px-[80px] lg:px-[120px] xl:px-[190px] pt-[180px] sm:pt-[150px] md:pt-[230px]">
 
                 <h1 className="text-white text-[32px] sm:text-[40px] md:text-[50px] lg:text-[60px] mb-6 sm:mb-8">
                     Global Trade <span className="text-[#2DC210] mr-1 sm:mr-2">.</span>
@@ -49,10 +49,21 @@ function Banner() {
                     Endless Possibilities <span className="text-[#2DC210]">.</span>
                 </h1>
 
-                <span className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] leading-relaxed text-white">
+                {/* <span className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] leading-relaxed text-white">
                     At{" "}
                     <span className="text-orange-600">Penta s International</span> General
                     Trading Contracting LLC,
+                    <br className="hidden sm:block" />
+                    we connect markets worldwide through wholesale, retail,
+                    <br className="hidden sm:block" /> HR solutions, and travel services.
+                    Based in Sharjah, UAE,
+                    <br className="hidden sm:block" /> we bring quality, reliability, and
+                    innovation to every partnership.
+                </span> */}
+                <span className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] leading-relaxed text-white">
+                    At{" "}
+                    <span className="font-bold">Penta S International</span> General
+                    Trading Contracting LLC, <span className="font-bold" > since 2024  </span>,
                     <br className="hidden sm:block" />
                     we connect markets worldwide through wholesale, retail,
                     <br className="hidden sm:block" /> HR solutions, and travel services.
